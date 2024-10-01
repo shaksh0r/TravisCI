@@ -5,4 +5,4 @@ before_install:
   - docker build -t frontend -f Dockerfile.dev .
 
 script:
-  - docker frontend npm run test
+  - docker run frontend npm run test
